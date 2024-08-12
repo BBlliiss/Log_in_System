@@ -21,7 +21,7 @@ while 1:
             print("The name does not exist")
             
         elif users[logInName]["accountState"]=="Frozen":
-            print("The account is frozon,pleace contact administrator")
+            print("The account is frozen,please contact administrator")
             
         else:
             if users[logInName]["password"]==logInPassword:
@@ -61,8 +61,3 @@ while 1:
             
     else:
         break
-    
-
-
-
-
