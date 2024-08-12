@@ -4,12 +4,11 @@ users={};
 def CheckForInput(_text):
     while 1:
         content=input(_text)
-        if not content and " " in content:
+        if not content or " " in content:
             print("Input error")
         else:
             return content
     
-
 while 1:
     option=input("log in(1) or register(2):")
     
